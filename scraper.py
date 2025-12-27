@@ -25,7 +25,7 @@ with sync_playwright() as p:
     ))
 
     page.goto(
-        "https://www.cgv.vn/default/cinox/site/cgv-celadon-tan-phu",
+        "https://www.galaxycine.vn/rap-gia-ve/galaxy-kinh-duong-vuong/",
         wait_until="commit",
         timeout=60000
     )
