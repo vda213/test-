@@ -13,6 +13,6 @@ chrome_options.binary_location = "/usr/bin/chromium"
 
 driver = webdriver.Chrome(options=chrome_options)
 
-driver.get("https://www.nytimes.com")
+driver.get("https://www.cgv.vn/default/cinox/site/cgv-celadon-tan-phu")
 print(driver.title)
 driver.quit()
